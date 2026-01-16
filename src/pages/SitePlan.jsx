@@ -87,7 +87,7 @@ const SitePlan = () => {
             </h2>
 
             <p className="text-gray-700 max-w-xl">
-              Contactez Mano Consulting pour échanger sur votre projet et
+              Contactez Geo Consulting pour échanger sur votre projet et
               bénéficier d’un accompagnement technique adapté à vos enjeux.
             </p>
 

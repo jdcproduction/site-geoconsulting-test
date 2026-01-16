@@ -1,5 +1,5 @@
 import ServicesCard from '../components/ServicesCard';
-import HeroPage from '../components/HeroPage';
+import HeroPage from "../components/ReUsable/HeroPage";
 import NavigationPath from '../components/NavigationPath';
 import { Award, PencilRuler, Pickaxe, Scale } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -12,7 +12,7 @@ const fadeUp = {
 
 const Services = () => {
   const firstText =
-    "Mano Consulting accompagne les collectivités, bureaux d’études et exploitants dans la gestion technique des réseaux d’assainissement. Nos interventions visent à fiabiliser les données terrain, sécuriser les projets et garantir des plans conformes aux exigences réglementaires et opérationnelles.";
+    "Geo Consulting accompagne les collectivités, bureaux d’études et exploitants dans la gestion technique des réseaux d’assainissement. Nos interventions visent à fiabiliser les données terrain, sécuriser les projets et garantir des plans conformes aux exigences réglementaires et opérationnelles.";
 
   return (
     <div className="">
@@ -28,7 +28,7 @@ const Services = () => {
         title="Nos services"
         punchline="Expertise technique au service des réseaux d’assainissement"
         paragraph={firstText}
-        imgName="conduite_de_gaz_egout.jpg"
+        imgName="NosServices.webp"
       />
 
       {/* Conteneur central pour les sections */}
@@ -55,7 +55,7 @@ const Services = () => {
           </p>
 
           <p className="text-gray-700 text-base">
-            Mano Consulting intervient pour sécuriser ces enjeux en assurant la
+            Geo Consulting intervient pour sécuriser ces enjeux en assurant la
             continuité entre la réalité du terrain et les outils numériques utilisés
             par les acteurs de l’assainissement.
           </p>
@@ -171,8 +171,7 @@ const Services = () => {
         </h2>
 
         <p className="text-sm max-w-xl">
-          Mano Consulting vous accompagne dans la fiabilisation et
-          la mise à jour de vos réseaux d’assainissement.
+          Eric Di Carlo vous accompagne dans la fiabilisation et la mise à jour de vos réseaux
         </p>
         <CTA className='bg-white text-bluegeo  hover:opacity-90'/>
       </section>

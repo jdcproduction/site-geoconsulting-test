@@ -1,4 +1,4 @@
-import HeroPage from '../components/HeroPage';
+import HeroPage from '../components/ReUsable/HeroPage';
 import NavigationPath from '../components/NavigationPath';
 import ParagraphScroll from '../components/ParagraphScroll';
 import WordScroll from '../components/WordScroll';

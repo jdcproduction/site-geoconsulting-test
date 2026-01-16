@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import BottomToTop from './BottomToTop';
+import BottomToTop from '../BottomToTop';
 
 const HeroPage = ({ className, title, punchline, paragraph, imgName }) => {
   return (

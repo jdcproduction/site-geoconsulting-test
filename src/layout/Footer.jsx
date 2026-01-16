@@ -1,4 +1,5 @@
 import LogoWhite from '../assets/images/Logo/Logo_White.svg';
+import LogoColorSmall from "../assets/images/Logo/LOGO_normal_small.png"
 import { motion } from 'framer-motion';
 import { Facebook, Linkedin, Instagram, Twitter } from 'lucide-react';
 
@@ -46,7 +47,7 @@ const Footer = ({ className }) => {
       <div className="relative z-10 max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-4 gap-8 text-white items-center">
         {/* LOGO + DESCRIPTION */}
         <div className="flex flex-col items-center md:items-start gap-4">
-          <img src={LogoWhite} alt="Logo" className="w-36 h-auto" />
+          <img src={LogoColorSmall} alt="Logo" className="w-36 h-auto" /> {/* ici ne fonction pas en couleur a mon imble */}
          
         </div>
 
